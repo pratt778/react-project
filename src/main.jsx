@@ -5,12 +5,13 @@ import ReactDOM from 'react-dom/client'
 // import './index.css'
 // import Meal from './mealapi'
 // import Calc from './calc'
-import Col from './colormode'
-
+// import Col from './colormode'
+import Hide from './hiddensearch'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Meal /> */}
     {/* <Calc/> */}
-    <Col/>
+    {/* <Col/> */}
+    <Hide/>
   </React.StrictMode>,
 )
