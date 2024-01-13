@@ -4,11 +4,13 @@ import ReactDOM from 'react-dom/client'
 // import Todo from './todo'
 // import './index.css'
 // import Meal from './mealapi'
-import Calc from './calc'
+// import Calc from './calc'
+import Col from './colormode'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Meal /> */}
-    <Calc/>
+    {/* <Calc/> */}
+    <Col/>
   </React.StrictMode>,
 )
