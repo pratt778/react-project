@@ -9,12 +9,18 @@ import ReactDOM from 'react-dom/client'
 // import Hide from './hiddensearch'
 // import Test from './testimonials'
 import Accord from './accordions'
+import  {accordionData}  from '../utils/accords'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Meal /> */}
     {/* <Calc/> */}
     {/* <Col/> */}
     {/* <Test/> */}
-    <Accord/>
+
+    {accordionData.map(({title,content})=>{
+      return <Accord title={title} content={content}/>
+    })}
+
+  
   </React.StrictMode>,
 )
