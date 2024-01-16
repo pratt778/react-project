@@ -8,8 +8,9 @@ import ReactDOM from 'react-dom/client'
 // import Col from './colormode'
 // import Hide from './hiddensearch'
 // import Test from './testimonials'
-import Accord from './accordions'
-import  {accordionData}  from '../utils/accords'
+// import Accord from './accordions'
+// import  {accordionData}  from '../utils/accords'
+import Myform from './form'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     {/* <Meal /> */}
@@ -17,10 +18,10 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Col/> */}
     {/* <Test/> */}
 
-    {accordionData.map(({title,content})=>{
+    {/* {accordionData.map(({title,content})=>{
       return <Accord title={title} content={content}/>
-    })}
-
+    })} */}
+  <Myform/>
   
   </React.StrictMode>,
 )
